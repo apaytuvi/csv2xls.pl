@@ -7,4 +7,4 @@ Usage:
 
 `--wordsheets` contains the name of each sheet separated by commas.
 
-`--FS` is the field separator in the text files (for `.csv` files, it should be ','; for `.tsv`, it should be '\t').
+`--FS` is the field separator in the text files (for `.csv` files, it should be `','`; for `.tsv`, it should be `'\t'`).
