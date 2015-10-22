@@ -5,7 +5,6 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Spreadsheet::WriteExcel;
-use Text::CSV_XS;
 
 my ($in, $out, $worksheets, $help);
 my $fieldseparator = "\t";
