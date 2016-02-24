@@ -7,7 +7,7 @@ Usage:
 
 `--in` REQUIRED. Input files.
 
-`--out` REQUIRED. Output `.xlsx` file.
+`--out` REQUIRED. `.xlsx` output file.
 
 `--wordsheets` contains the name of each sheet separated by commas.
 
