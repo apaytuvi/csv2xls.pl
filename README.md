@@ -5,12 +5,12 @@ Usage:
 
 * `csv2xlsx.pl --in infile1.csv,infile2.csv,infile3.csv --out outfile.xlsx --worksheets infile1,infile2,infile3 --FS '\t' --header col1,col2,...,colX`
 
-`--in` REQUIRED. Input files.
+`--in` input files (REQUIRED).
 
-`--out` REQUIRED. `.xlsx` output file.
+`--out` output file (REQUIRED).
 
-`--wordsheets` contains the name of each sheet separated by commas.
+`--wordsheets` sheet names.
 
-`--header` contains the name of each column for the header.
+`--header` column names for the header.
 
-`--FS` is the field separator in the text files (for `.csv` files, it should be `','`; for `.tsv` (DEFAULT), it should be `'\t'`).
+`--FS` field separator in the input files (for `.csv` files, it should be `','`; for `.tsv` (DEFAULT), it should be `'\t'`).
